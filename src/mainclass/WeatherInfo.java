@@ -94,6 +94,10 @@ public class WeatherInfo {
 				    	wrtieToCsvFile(region, StringConstant.weatherParam[weatherparam], "N/A", StringConstant.key[j], "N/A");
 				     }
 				    }
+				    else
+				    {
+				    	wrtieToCsvFile(region, StringConstant.weatherParam[weatherparam], "N/A", StringConstant.key[j], "N/A");
+				    }
 				    
 					beginIndex=headercount[j];
 			}
